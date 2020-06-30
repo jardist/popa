@@ -1,0 +1,56 @@
+body{margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;}
+html::-webkit-scrollbar{width:0}
+html::-webkit-scrollbar-thumb{background-color:transparent;}
+a:link, a:visited {text-decoration: none;color: #171717;}
+a:hover {color: #005b99;}
+.clear{clear: both;overflow: hidden;border: 1px solid transparent;height: 0;}
+#table-outer,#feed-container li .inner .news-text {display: none;}
+#result-desc {position: relative;text-align: center;margin: 0 0 5px;}
+#result-desc:before {content: "";position: absolute;height: 2px;background: #ddd;top: 50%;left: 0;right: 0;}
+#result-desc div {background: #fff;display: inline-block;position: relative;padding: 0 9px;}
+#feed-container {list-style: none;margin:0;padding: 0;height: 834px;overflow-y: auto;}
+#feed-container li {width: 50%;float: left;overflow: hidden;}
+#feed-container li .inner {overflow: hidden;} 
+#feed-container li:nth-child(odd) .inner{padding:9px 9px 9px 0;}
+#feed-container li:nth-child(even) .inner{padding:9px 0 9px 9px;}
+#feed-container li .inner img {margin:0 0 10px;display: block;width: 100%;height: auto;}
+#feed-container li .inner a {display: -webkit-box;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;white-space: normal;-webkit-line-clamp: 3;font-size: 20px;min-height: 72px;line-height: 1.2em;}
+#feed-nav {text-align: center;font-size: 14px;margin: 3px 0 10px;}
+#feed-nav a {display: block;border: 1px solid #999;padding:10px 18px;}
+#feed-nav a:hover {border: 1px solid #005b99;}
+/* media screen 1024 desktop */
+@media screen and (max-width:652px){
+}
+/* media screen 960 desktop */
+@media screen and (max-width:606px){
+#feed-container {height: 795px;}
+}
+/* media screen 800 desktop */
+@media screen and (max-width:446px){
+#feed-container {height: 660px;}
+}
+/* media screen 640 desktop */
+@media screen and (max-width:286px){
+#feed-container {height: 631px;}
+}
+/* media screen 480 mobile */
+@media screen and (max-width:444px){
+#feed-container {height: 764px;}
+#feed-container li .inner a {-webkit-line-clamp: 5;font-size: 18px;min-height: 107px;}
+}
+/* media screen 414 mobile */
+@media screen and (max-width:378px){
+#feed-container {height: 708px;}
+}
+/* media screen 375 mobile */
+@media screen and (max-width:339px){
+#feed-container {height: 675px;}
+}
+/* media screen 360 mobile */
+@media screen and (max-width:324px){
+#feed-container {height: 663px;}
+}
+/* media screen 320 mobile */
+@media screen and (max-width:284px){
+#feed-container {height: 629px;}
+}
