@@ -9,13 +9,28 @@ body{background-color:#fff;margin:0;padding:0;font-family:-apple-system,BlinkMac
 a{text-decoration:none}
 .related-post{margin:0 auto;overflow:hidden}
 ul{margin:0 -9px;padding:0;list-style:none}
-ul li{float:left;width: calc(33.333% - 18px);position:relative;background-color:#fff;display:block;overflow:hidden;margin:9px;}
+ul li{float:left;width: calc(33.333% - 18px);position:relative;background-color:#fff;display:block;overflow:hidden;margin:0 9px 18px;}
 ul img{width: 100%;height:auto}
-ul h6{line-height: 1.3em;margin:0;font-weight:normal;font-size:18px}
+ul h6{line-height: 1.3em;margin:10px 0 0;font-weight:normal;font-size:18px}
 ul h6 a{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;white-space:normal;-webkit-line-clamp:4;min-height: 92px;}
 ul li a:link,ul li a:visited{color:#171717}
 ul li a:hover{color:#005b99}
 ul h6 a:before{content:"";position:absolute;top:0;bottom:0;left:0;right:0;}
+/* media screen 800 */
+@media screen and (max-width:446px){
+ul li {width: calc(50% - 18px);}
+}
+/* media screen 640 */
+@media screen and (max-width:286px){
+ul h6 {font-size: 16px;}
+ul h6 a {-webkit-line-clamp: 3;min-height: 60px;}
+}
+/* media screen 360 */
+@media screen and (max-width:324px){
+ul li {float: none;width: 100%;}
+ul img {width: 100%;max-width: 142px;float: left;margin: 0 10px 0 0;}
+ul h6 a {-webkit-line-clamp: 4;min-height: auto;}
+}
 </style>
 </head><body>
 <div id="related-post" class="related-post"></div>
