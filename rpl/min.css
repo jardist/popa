@@ -1,0 +1,43 @@
+body{margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;}
+html::-webkit-scrollbar{width:0}
+html::-webkit-scrollbar-thumb{background-color:transparent;}
+#table-outer,#feed-container li .inner .news-text, #result-desc, #feed-nav {display: none;}
+.clear{clear: both;overflow: hidden;border: 1px solid transparent;height: 0;}
+a:link, a:visited {text-decoration: none;color: #171717;}
+a:hover {color: #005b99;}
+#feed-container {list-style: none;margin:0 -9px;padding: 0;}
+#feed-container li {width: 50%;float: left;overflow: hidden;}
+#feed-container li .inner {overflow: hidden;padding:0 9px 18px;} 
+#feed-container li img {margin:0 0 10px;display: block;width: 100%;height: auto;}
+#feed-container li a {display: -webkit-box;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;white-space: normal;-webkit-line-clamp: 3;font-size: 17px;min-height: 72px;line-height: 1.2em;}
+#feed-container li:nth-child(1){}
+#feed-container li:nth-child(1) img{}
+#feed-container li:nth-child(1) a{}
+
+/* media screen 1024 desktop */
+@media screen and (max-width:652px){
+}
+/* media screen 960 desktop */
+@media screen and (max-width:606px){
+}
+/* media screen 800 desktop */
+@media screen and (max-width:446px){
+}
+/* media screen 640 desktop */
+@media screen and (max-width:286px){
+}
+/* media screen 480 mobile */
+@media screen and (max-width:444px){
+}
+/* media screen 414 mobile */
+@media screen and (max-width:378px){
+}
+/* media screen 375 mobile */
+@media screen and (max-width:339px){
+}
+/* media screen 360 mobile */
+@media screen and (max-width:324px){
+}
+/* media screen 320 mobile */
+@media screen and (max-width:284px){
+}
