@@ -5,14 +5,14 @@ html::-webkit-scrollbar-thumb{background-color:transparent;}
 .clear{clear: both;overflow: hidden;border: 1px solid transparent;height: 0;}
 a:link, a:visited {text-decoration: none;color: #171717;}
 a:hover {color: #005b99;}
-#feed-container {list-style: none;margin:0 -9px;padding: 0;}
+#feed-container {list-style: none;margin:0 -9px;padding: 0;overflow: hidden;height: 298px;}
 #feed-container li {width: 50%;float: left;overflow: hidden;}
 #feed-container li .inner {overflow: hidden;padding:0 9px 18px;} 
-#feed-container li img {margin:0 0 10px;display: block;width: 100%;height: auto;}
-#feed-container li a {display: -webkit-box;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;white-space: normal;-webkit-line-clamp: 3;font-size: 17px;min-height: 72px;line-height: 1.2em;}
+#feed-container li img {margin: 0 10px 0 0;display: block;width: 100%;height: auto;max-width: 100px;float: left;}
+#feed-container li a {display: -webkit-box;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;white-space: normal;-webkit-line-clamp: 3;font-size: 17px;line-height: 1.2em;margin: -4px 0 0;}
 #feed-container li:nth-child(1){}
-#feed-container li:nth-child(1) img{}
-#feed-container li:nth-child(1) a{}
+#feed-container li:nth-child(1) img{max-width: 100%;float: none;margin: 0 0 10px;}
+#feed-container li:nth-child(1) a{font-size: 20px;-webkit-line-clamp: 4;margin: 0;}
 
 /* media screen 1024 desktop */
 @media screen and (max-width:652px){
