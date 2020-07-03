@@ -2,10 +2,10 @@ body{margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,"Roboto","S
 html::-webkit-scrollbar{width:0}
 html::-webkit-scrollbar-thumb{background-color:transparent;}
 #table-outer,#feed-container li .inner .news-text, #result-desc, #feed-nav {display: none;}
-.clear{clear: both;overflow: hidden;border: 1px solid transparent;height: 0;}
+.clear{clear: both;overflow: hidden;border: 1px solid transparent;height: 0;margin: -2px 0 0;}
 a:link, a:visited {text-decoration: none;color: #171717;}
 a:hover {color: #005b99;}
-#feed-container {list-style: none;margin:-2px -9px 0;padding: 0;overflow: hidden;}
+#feed-container {list-style: none;margin:0 -9px;padding: 0;overflow: hidden;}
 #feed-container li {width: 50%;float: left;overflow: hidden;}
 #feed-container li .inner {overflow: hidden;padding:0 9px 18px;} 
 #feed-container li img {margin: 0 10px 0 0;display: block;width: 100%;height: auto;max-width: 100px;float: left;}
@@ -27,6 +27,8 @@ a:hover {color: #005b99;}
 }
 /* media screen 480 mobile */
 @media screen and (max-width:444px){
+#feed-container li {width: 100%;float: none;}
+#feed-container li:nth-child(1) a {margin: -3px 0 10px;}
 }
 /* media screen 414 mobile */
 @media screen and (max-width:378px){
