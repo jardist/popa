@@ -25,9 +25,6 @@ a:hover {color: #005b99;}
 /* media screen 800 desktop */
 @media screen and (max-width:446px){
 }
-/* media screen 640 desktop */
-@media screen and (max-width:286px){
-}
 /* media screen 480 mobile */
 @media screen and (max-width:444px){
 }
@@ -39,6 +36,9 @@ a:hover {color: #005b99;}
 }
 /* media screen 360 mobile */
 @media screen and (max-width:324px){
+}
+/* media screen 640 desktop */
+@media screen and (max-width:286px){
 }
 /* media screen 320 mobile */
 @media screen and (max-width:284px){
