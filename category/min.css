@@ -38,22 +38,22 @@ a:hover {color: #005b99;}
 #feed-container::-webkit-scrollbar {width: 9px;}
 #feed-container::-webkit-scrollbar-thumb {background-color: #777;border-radius: 9px;}
 #feed-container::-webkit-scrollbar-track {background-color: #ddd;}
-#feed-container {height: 764px;}
+#feed-container {height: 767px;}
 #feed-container li .inner a {-webkit-line-clamp: 5;font-size: 18px;min-height: 108px;}
 }
 /* media screen 414 mobile */
 @media screen and (max-width:378px){
-#feed-container {height: 708px;}
+#feed-container {height: 711px;}
 }
 /* media screen 375 mobile */
 @media screen and (max-width:339px){
-#feed-container {height: 675px;}
+#feed-container {height: 678px;}
 }
 /* media screen 360 mobile */
 @media screen and (max-width:324px){
-#feed-container {height: 663px;}
+#feed-container {height: 666px;}
 }
 /* media screen 320 mobile */
 @media screen and (max-width:284px){
-#feed-container {height: 629px;}
+#feed-container {height: 632px;}
 }
