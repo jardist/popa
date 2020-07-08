@@ -9,6 +9,9 @@ a:hover {color: #005b99;}
 #result-desc:before {content: "";position: absolute;height: 2px;background: #ddd;top: 50%;left: 0;right: 0;}
 #result-desc div {background: #fff;display: inline-block;position: relative;padding: 0 9px;}
 #feed-container {list-style: none;margin:0;padding: 0;height: 834px;overflow-y: auto;}
+#feed-container::-webkit-scrollbar {width: 5px;}
+#feed-container::-webkit-scrollbar-thumb {background-color: #777;border-radius: 1.5px;margin: 0 1px;}
+#feed-container::-webkit-scrollbar-track {background-color: #ddd;}
 #feed-container li {width: 50%;float: left;overflow: hidden;}
 #feed-container li .inner {overflow: hidden;} 
 #feed-container li:nth-child(odd) .inner{padding:9px 9px 9px 0;}
