@@ -8,9 +8,9 @@ a:hover {color: #005b99;}
 #result-desc {position: relative;text-align: center;margin: 0 0 10px;}
 #result-desc:before {content: "";position: absolute;height: 2px;background: #ddd;top: 50%;left: 0;right: 0;}
 #result-desc div {background: #fff;display: inline-block;position: relative;padding: 0 9px;}
-#feed-container {list-style: none;margin:0;padding: 0 18px 0 0;height: 834px;overflow-y: auto;position:relative;}
-#feed-container:before,#feed-container:after{position:absolute;content:"";left:0;right:0;height:30px;}
-#feed-container:before{top:0;
+.sekrol{padding: 0 18px 0 0;height: 834px;overflow-y: auto;position:relative;}
+.sekrol:before,.sekrol:after{position:absolute;content:"";left:0;right:0;height:30px;}
+.sekrol:before{top:0;
 background: -moz-linear-gradient(bottom,rgba(255,255,255,0)0,rgba(255,255,255,1)100%);
 background: -webkit-gradient(linear,left bottom,left top,color-stop(0,rgba(255,255,255,0)),color-stop(100%,rgba(255,255,255,1)));
 background: -webkit-linear-gradient(bottom,rgba(255,255,255,0)0,rgba(255,255,255,1)100%);
@@ -18,7 +18,7 @@ background: -o-linear-gradient(bottom,rgba(255,255,255,0)0,rgba(255,255,255,1)10
 background: -ms-linear-gradient(bottom,rgba(255,255,255,0)0,rgba(255,255,255,1)100%);
 background: linear-gradient(to top,rgba(255,255,255,0)0,rgba(255,255,255,1)100%);
 }
-#feed-container:after{bottom:0;
+.sekrol:after{bottom:0;
 background: -moz-linear-gradient(top,rgba(255,255,255,0)0,rgba(255,255,255,1)100%);
 background: -webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(255,255,255,0)),color-stop(100%,rgba(255,255,255,1)));
 background: -webkit-linear-gradient(top,rgba(255,255,255,0)0,rgba(255,255,255,1)100%);
@@ -26,6 +26,7 @@ background: -o-linear-gradient(top,rgba(255,255,255,0)0,rgba(255,255,255,1)100%)
 background: -ms-linear-gradient(top,rgba(255,255,255,0)0,rgba(255,255,255,1)100%);
 background: linear-gradient(to bottom,rgba(255,255,255,0)0,rgba(255,255,255,1)100%);
 }
+#feed-container {list-style: none;margin:0;padding:0;}
 #feed-container li {width: 50%;float: left;overflow: hidden;}
 #feed-container li .inner {overflow: hidden;} 
 #feed-container li:nth-child(odd) .inner{padding:0 9px 15px 0;}
@@ -35,42 +36,39 @@ background: linear-gradient(to bottom,rgba(255,255,255,0)0,rgba(255,255,255,1)10
 #feed-nav {text-align: center;font-size: 14px;margin: 13px 0 0;}
 #feed-nav a {display: block;border: 1px solid #999;padding:10px 18px;}
 #feed-nav a:hover {border: 1px solid #005b99;}
-/* media screen 1024 desktop */
-@media screen and (max-width:652px){
-}
 /* media screen 960 desktop */
 @media screen and (max-width:606px){
-#feed-container {height: 795px;}
+.sekrol {height: 795px;}
 }
 /* media screen 800 desktop */
 @media screen and (max-width:446px){
-#feed-container {height: 660px;}
+.sekrol {height: 660px;}
 }
 /* media screen 640 desktop */
 @media screen and (max-width:286px){
-#feed-container {height: 631px;}
+.sekrol {height: 631px;}
 }
 /* media screen 480 mobile */
 @media screen and (max-width:444px){
-#feed-container::-webkit-scrollbar {width: 9px;margin-left:9px;}
-#feed-container::-webkit-scrollbar-thumb {background-color: #777;border-radius: 9px;}
-#feed-container::-webkit-scrollbar-track {background-color: #ddd;}
-#feed-container {height: 767px;}
+.sekrol::-webkit-scrollbar {width: 9px;margin-left:9px;}
+.sekrol::-webkit-scrollbar-thumb {background-color: #777;border-radius: 9px;}
+.sekrol::-webkit-scrollbar-track {background-color: #ddd;}
+.sekrol {height: 767px;}
 #feed-container li .inner a {-webkit-line-clamp: 5;font-size: 18px;min-height: 108px;}
 }
 /* media screen 414 mobile */
 @media screen and (max-width:378px){
-#feed-container {height: 711px;}
+.sekrol {height: 711px;}
 }
 /* media screen 375 mobile */
 @media screen and (max-width:339px){
-#feed-container {height: 678px;}
+.sekrol {height: 678px;}
 }
 /* media screen 360 mobile */
 @media screen and (max-width:324px){
-#feed-container {height: 666px;}
+.sekrol {height: 666px;}
 }
 /* media screen 320 mobile */
 @media screen and (max-width:284px){
-#feed-container {height: 632px;}
+.sekrol {height: 632px;}
 }
