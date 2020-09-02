@@ -21,9 +21,11 @@ a:hover {color: #005b99;}
 }
 /* media screen 960 desktop */
 @media screen and (max-width:606px){
+#feed-container li:nth-child(1) a {min-height: 53px;}
 }
 /* media screen 800 desktop */
 @media screen and (max-width:446px){
+#feed-container li:nth-child(1) a {min-height: 98px;}
 }
 /* media screen 480 mobile */
 @media screen and (max-width:444px){
@@ -32,6 +34,7 @@ a:hover {color: #005b99;}
 #feed-container li {width: 100%;float: none;}
 #feed-container li:nth-child(1) a {margin:-3px 0 15px;}
 #feed-container li:nth-child(1) .inner, #feed-container li:nth-child(5) .inner {padding: 0;}
+#feed-container li:nth-child(1) a {min-height: auto;}
 }
 /* media screen 414 mobile */
 @media screen and (max-width:378px){
