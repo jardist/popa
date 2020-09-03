@@ -14,7 +14,7 @@ h1{font-weight: normal;text-align: center;padding: 0 18px;margin: 20px auto 0;fo
 #feed-container li .inner a:before{content:"";position:absolute;top:0;bottom:0;left:0;right:0;}
 #feed-container li .inner .news-text{height: 1px;overflow: hidden;}
 
-#feed-container li:nth-child(1){width: 100%;}
+#feed-container li:nth-child(1){width: 100%;float: none;}
 #feed-container li:nth-child(1) .inner {background: #111;}
 #feed-container li:nth-child(1) .inner img {float: left;width: 50%;margin: 0 18px 0 0;}
 #feed-container li:nth-child(1) .inner a {font-size: 27px;color: #fff;margin: 18px;}
@@ -25,39 +25,15 @@ h1{font-weight: normal;text-align: center;padding: 0 18px;margin: 20px auto 0;fo
 #feed-nav {text-align: center;font-size: 14px;margin: 0 auto 20px;max-width: 280px;padding: 0 18px;}
 #feed-nav a {display: block;padding: 11px 18px;background: #595959;color: #fff;border-radius: 50px;}
 #feed-nav a:hover {background: #005b99;}
-/* media screen 960 desktop */
-@media screen and (max-width:606px){
-#feed-container {height: 600px;}
-}
-/* media screen 800 desktop */
-@media screen and (max-width:446px){
-#feed-container {height: 480px;}
-}
-/* media screen 640 desktop */
-@media screen and (max-width:286px){
-#feed-container {height: 631px;}
-}
-/* media screen 480 mobile */
-@media screen and (max-width:444px){
-#feed-container::-webkit-scrollbar {width: 9px;margin-left:9px;}
-#feed-container::-webkit-scrollbar-thumb {background-color: #777;border-radius: 9px;}
-#feed-container::-webkit-scrollbar-track {background-color: #ddd;}
-#feed-container {height: 570px;}
-#feed-container li .inner a {-webkit-line-clamp: 5;font-size: 18px;min-height: 108px;}
-}
-/* media screen 414 mobile */
-@media screen and (max-width:378px){
-#feed-container {height: 510px;}
-}
-/* media screen 375 mobile */
-@media screen and (max-width:339px){
-#feed-container {height: 490px;}
-}
-/* media screen 360 mobile */
-@media screen and (max-width:324px){
-#feed-container {height: 470px;}
-}
-/* media screen 320 mobile */
-@media screen and (max-width:284px){
-#feed-container {height: 440px;}
+
+@media screen and (max-width:480px){
+#feed-container li:nth-child(1) .inner img {float: none;width: 100%;margin: 0;}
+#feed-container li:nth-child(1) .inner a {font-size: 25px;margin: 12px 18px 11px;min-height: auto;}
+
+#feed-container li,#feed-container li:nth-child(7), #feed-container li:nth-child(8) {width: 50%;}
+#feed-container li:nth-child(7) .inner a, #feed-container li:nth-child(8) .inner a{font-size: 20px;}
+  
+#feed-container li:nth-child(6){width: 100%;}
+#feed-container li:nth-child(6) .inner a{min-height: auto;position: absolute;bottom: 0;color: #fff;}
+  
 }
