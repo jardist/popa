@@ -20,7 +20,7 @@ h1{font-weight: normal;text-align: center;padding: 0 18px;margin: 20px auto 0;fo
 #feed-container li:nth-child(1) .inner a {font-size: 27px;color: #fff;margin: 18px;}
 
 #feed-container li:nth-child(6),#feed-container li:nth-child(7),#feed-container li:nth-child(8){width: 33.333%;}
-#feed-container li:nth-child(6) .inner a,#feed-container li:nth-child(7) .inner a,#feed-container li:nth-child(8) .inner a{font-size: 23px;}
+#feed-container li:nth-child(6) .inner a,#feed-container li:nth-child(7) .inner a,#feed-container li:nth-child(8) .inner a{font-size: 23px;min-height: 81px;}
 
 #feed-nav {text-align: center;font-size: 14px;margin: 0 auto 20px;max-width: 280px;padding: 0 18px;}
 #feed-nav a {display: block;padding: 11px 18px;background: #595959;color: #fff;border-radius: 50px;}
