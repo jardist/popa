@@ -31,9 +31,17 @@ h1{font-weight: normal;text-align: center;padding: 0 18px;margin: 20px auto 0;fo
 #feed-container li:nth-child(1) .inner a {font-size: 25px;margin: 12px 18px 11px;min-height: auto;}
 
 #feed-container li,#feed-container li:nth-child(7), #feed-container li:nth-child(8) {width: 50%;}
-#feed-container li:nth-child(7) .inner a, #feed-container li:nth-child(8) .inner a{font-size: 20px;}
+#feed-container li:nth-child(7) .inner a, #feed-container li:nth-child(8) .inner a{font-size: 20px;min-height: auto;}
   
 #feed-container li:nth-child(6){width: 100%;}
 #feed-container li:nth-child(6) .inner a{min-height: auto;position: absolute;bottom: 0;color: #fff;}
+#feed-container li:nth-child(6):after {content: "";position: absolute;height: 80%;left: 0;right: 0;bottom: 0;
+background: -moz-linear-gradient(top,rgba(0,0,0,0)0,rgba(0,0,0,.9)100%);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,.9)));
+background: -webkit-linear-gradient(top,rgba(0,0,0,0)0,rgba(0,0,0,.9)100%);
+background: -o-linear-gradient(top,rgba(0,0,0,0)0,rgba(0,0,0,.9)100%);
+background: -ms-linear-gradient(top,rgba(0,0,0,0)0,rgba(0,0,0,.9)100%);
+background: linear-gradient(to bottom,rgba(0,0,0,0)0,rgba(0,0,0,.9)100%);
+}
   
 }
