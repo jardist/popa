@@ -28,13 +28,14 @@ h1{font-weight: normal;text-align: center;padding: 0 18px;margin: 20px auto 0;fo
 
 @media screen and (max-width:480px){
 #feed-container li:nth-child(1) .inner img {float: none;width: 100%;margin: 0;}
-#feed-container li:nth-child(1) .inner a {font-size: 25px;margin: 12px 18px 11px;min-height: auto;}
+#feed-container li:nth-child(1) .inner a {font-size: 23px;margin: 12px 18px 11px;min-height: auto;}
 
 #feed-container li,#feed-container li:nth-child(7), #feed-container li:nth-child(8) {width: 50%;}
-#feed-container li:nth-child(7) .inner a, #feed-container li:nth-child(8) .inner a{font-size: 20px;min-height: auto;}
+  
+#feed-container li:nth-child(7) .inner a, #feed-container li:nth-child(8) .inner a, #feed-container li .inner a {font-size: 17px;min-height: 82px;-webkit-line-clamp: 4;}
   
 #feed-container li:nth-child(6){width: 100%;}
-#feed-container li:nth-child(6) .inner a{min-height: auto;position: absolute;bottom: 0;color: #fff;z-index: 9;}
+#feed-container li:nth-child(6) .inner a{min-height: auto;position: absolute;bottom: 0;color: #fff;z-index: 9;font-size: 23px;}
 #feed-container li:nth-child(6) .inner:after {content: "";position: absolute;height: 80%;left: 0;right: 0;bottom: 0;
 background: -moz-linear-gradient(top,rgba(0,0,0,0)0,rgba(0,0,0,.9)100%);
 background: -webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,.9)));
