@@ -34,7 +34,7 @@ h1{font-weight: normal;text-align: center;padding: 0 18px;margin: 20px auto 0;fo
 #feed-container li:nth-child(7) .inner a, #feed-container li:nth-child(8) .inner a{font-size: 20px;min-height: auto;}
   
 #feed-container li:nth-child(6){width: 100%;}
-#feed-container li:nth-child(6) .inner a{min-height: auto;position: absolute;bottom: 0;color: #fff;}
+#feed-container li:nth-child(6) .inner a{min-height: auto;position: absolute;bottom: 0;color: #fff;z-index: 9;}
 #feed-container li:nth-child(6) .inner:after {content: "";position: absolute;height: 80%;left: 0;right: 0;bottom: 0;
 background: -moz-linear-gradient(top,rgba(0,0,0,0)0,rgba(0,0,0,.9)100%);
 background: -webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,.9)));
