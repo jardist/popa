@@ -11,7 +11,7 @@ a:hover {color: #005b99;}
 #feed-container li img {margin: 0 0 0 10px;display: block;width: calc(100% - 2px);height: auto;max-width: 100px;float: right;border: 1px solid #eee;}
 #feed-container li a {display: -webkit-box;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;white-space: normal;-webkit-line-clamp: 3;font-size: 17px;line-height: 1.2em;margin: -3px 0 0;}
 
-#feed-container li:nth-child(1) img{max-width: 100%;float: none;margin: 0 0 10px;border-radius: 5px 5px 0 0;border: none;width: 100%;object-fit: cover;height: 175px;}
+#feed-container li:nth-child(1) img{max-width: 100%;float: none;margin: 0 0 10px;border-radius: 5px 5px 0 0;border: none;width: 100%;object-fit: cover;height: 174px;}
 #feed-container li:nth-child(1) a{font-size: 19px;-webkit-line-clamp: 4;margin: 10px;min-height: 88px;}
 
 #feed-container li:nth-child(1) .inner{box-shadow: 0 1px 3px #999;margin: 1px 3px 3px 9px;padding: 0;border-radius: 5px;}
