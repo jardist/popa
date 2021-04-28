@@ -14,7 +14,7 @@ a:hover {color: #005b99;}
 #feed-container li:nth-child(1) img{max-width: 100%;float: none;margin: 0 0 10px;border-radius: 5px 5px 0 0;border: none;width: 100%;object-fit: cover;height: 174px;}
 #feed-container li:nth-child(1) a{font-size: 19px;-webkit-line-clamp: 4;margin: 10px;min-height: 88px;}
 
-#feed-container li:nth-child(1) .inner{background: rgb(255 255 255 / 10%);box-shadow: 0 1px 3px #999;margin:1px 9px 3px 3px;padding: 0;border-radius: 5px;}
+#feed-container li:nth-child(1) .inner{background: rgb(255 255 255 / 10%);margin:1px 9px 3px 3px;padding: 0;border-radius: 5px;}
 #feed-container li:nth-child(5) .inner{padding:0 9px}
 
 /* media screen 1024 desktop */
